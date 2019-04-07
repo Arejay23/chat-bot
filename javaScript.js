@@ -38,27 +38,6 @@ var btn = document.getElementById('submit');
 // var typing = document.getElementById('typing');
 
 // Functionality of btn
-function myFunction() {
-    if (event.keyCode === 13) {
-        if (message.value[0] == message.value[0].toLowerCase()) {
-            message.value = message.value[0].toUpperCase() + message.value.slice(1);
-        }
-        output.innerHTML += '<p id="user_msg">' +
-            '<i class="fas fa-user-circle text-primary"></i>' +
-            '<span id="msgbox" class="text-primary"><b><i>  ' + "client" + ' : </i></b>' + message.value + '</span></p>';
-        sockets.emit('chat', {
-            message: message.value,
-            handle: handle.value
-        });
-        message.value = "";
-        event.preventDefault();
-        // Trigger the button element with a click
-        document.getElementById("submit").click();
-    }
-}
-yoho.onkeypress = function () {
-    console.log("nacho");
-}
 btn.onclick = function () {
     if (message.value[0] == message.value[0].toLowerCase()) {
         message.value = message.value[0].toUpperCase() + message.value.slice(1);
