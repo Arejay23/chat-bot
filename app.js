@@ -6,6 +6,7 @@ var express = require('express'),
 
 var port = process.env.PORT || 3000;
 app.use(express.static("."));
+process.env.GOOGLE_APPLICATION_CREDENTIALS;
 
 server.listen(port, function () {
 	console.log("Listening server at port: " + port);
