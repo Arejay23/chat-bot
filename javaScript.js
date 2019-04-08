@@ -30,7 +30,7 @@ function popup_close() {
 }
 
 // Make connection on client side
-var sockets = io.connect('https://desolate-waters-16283.herokuapp.com/');
+var sockets = io.connect('https://sleepy-everglades-88740.herokuapp.com/');
 
 var message = document.getElementById('message');
 var output = document.getElementById('output');
