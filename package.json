@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RupalJain97/customersupportbot.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RupalJain97/customersupportbot/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/RupalJain97/customersupportbot#readme",
+  "homepage": "",
   "dependencies": {
     "dialogflow": "^4.0.3",
     "express": "^4.16.4",
